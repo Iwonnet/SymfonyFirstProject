@@ -10,11 +10,11 @@ class CurrentDateController
 {
 
     /**
-     * @Route(path="/index", name="test_route")
+     * @Route(path="/index", name="currentDate")
      * @return Response
      * @throws
      */
-    public function main(): Response
+    public function currentDate(): Response
     {
         $currentDate = new DateTime();
 
